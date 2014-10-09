@@ -13,6 +13,7 @@
 int main()
 {
 	int i, limiteInferior, limiteSuperior, intervalo, offset, tmp, elementos;
+
 /* variável offset é o salto que ele vai dar de 0 até o limite inferior	
 Exemplo: limite inferior 200, limite superior 320, 320 - 200 = 120 elementos
 (x%121)+200 [x % (intervalo + 1) + offset]*/
@@ -31,11 +32,13 @@ Exemplo: limite inferior 200, limite superior 320, 320 - 200 = 120 elementos
 
 	intervalo = limiteSuperior - limiteInferior;
 	offset = limiteInferior;	
+	
+	printf("Os numeros gerados são:\n");
 
 	for(i=0;i<elementos;i++)
 	{		
 		tmp = rand()%(intervalo + 1) + offset;
-		printf("%d\n", tmp);
+		printf("%d \n",tmp);
 	}
 
 	
@@ -43,4 +46,4 @@ Exemplo: limite inferior 200, limite superior 320, 320 - 200 = 120 elementos
 
 }
 
-//Agradeço ao menino moringa (Gabriel Saraiva) que me ajudou e apoiou em programação.
+//Agradeço ao Gabriel Saraiva que está me ensinando e dando apoio para programar.
