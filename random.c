@@ -1,7 +1,7 @@
 /* Autor: Lucas Afonso Cazarote
  * Data: 25 de Setembro de 2014
  * 
- * que gera uma sequência de números aleatórios dentro de um intervalo definido pelo usuário.
+ * Programa que gera uma sequência de números aleatórios dentro de um intervalo definido pelo usuário.
  */
 
 
