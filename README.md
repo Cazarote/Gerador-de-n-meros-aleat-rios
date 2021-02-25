@@ -1,2 +1,2 @@
-Gerador-de-n-meros-aleat-rios
+Gerador-de-numeros-aleatorios
 =============================
